@@ -1,0 +1,3 @@
+Create Database using the statement - create database university;
+To list all the database - show databases;
+to switch for any of the database - use database university;
