@@ -7,6 +7,8 @@ to list tables-                                   show tables;
 to insert values-                                 insert into student values("Anil", "1CG", 30);
                                                   insert into course values("DBMS", 1);
 To see the values of the tables-                  select * from student;
+                                                  select name from student;
+                                                  select USN from student;
 To alter table-                                   alter table student add column address varchar(20);
 to alter table (drop any column)-                 alter table student drop column address varchar(20);
 to delete table or database use the command-      drop database_name; & drop table_name; 
