@@ -1,3 +1,17 @@
-Create Database using the statement - create database university;
-To list all the database - show databases;
-to switch for any of the database - use database university;
+Create Database using the statement -             create database university;
+To list all the database -                        show databases;
+to switch from any of the database -              use database university;
+                                                  create table student (name varchar(20), USN varchar(10), age int);
+                                                  create table course (c_name varchar(20), c_id int);
+to list tables-                                   show tables;
+to insert values-                                 insert into student values("Anil", "1CG", 30);
+                                                  insert into course values("DBMS", 1);
+To see the values of the tables-                  select * from student;
+To alter table-                                   alter table student add column address varchar(20);
+to alter table (drop any column)-                 alter table student drop column address varchar(20);
+to delete table or database use the command-      drop database_name; & drop table_name; 
+
+Task:
+Create table Employee and add attributes (F_name, M_Name, L_name, SSN, Birth_date, address, sex, salary, dept)
+and inster 5 values after creating table
+
