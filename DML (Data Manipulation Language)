@@ -20,3 +20,16 @@ There are two wildcards often used in conjunction with the LIKE operator:
 The WHERE clause is used to filter records.
 Sytax: SELECT column1, column2, ... FROM table_name WHERE condition;
 Example: SELECT * FROM Customers WHERE Country='Mexico'
+
+The SQL AND, OR and NOT Operators
+The WHERE clause can be combined with AND, OR, and NOT operators.
+The AND and OR operators are used to filter records based on more than one condition:
+The AND operator displays a record if all the conditions separated by AND are TRUE.
+The OR operator displays a record if any of the conditions separated by OR is TRUE.
+The NOT operator displays a record if the condition(s) is NOT TRUE.
+And Syntax: SELECT column1, column2, ...FROM table_name WHERE condition1 AND condition2 AND condition3 ...;
+OR Syntax: SELECT column1, column2, ...FROM table_name WHERE condition1 OR condition2 OR condition3 ...;
+Not Syntax: SELECT column1, column2, ... FROM table_name WHERE NOT condition;
+Example: SELECT * FROM Customers WHERE Country='Germany' AND City='Berlin';
+Example: SELECT * FROM Customers WHERE City='Berlin' OR City='München';
+SELECT * FROM Customers WHERE Country='Germany' OR Country='Spain';
