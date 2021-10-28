@@ -1,0 +1,22 @@
+The UPDATE statement is used to modify the existing records in a table.
+Update command syntax: UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE condition;
+Example: update book set title="DBMS" where book_id=1;
+
+The ORDER BY keyword sorts the records in ascending order by default. To sort the records in descending order, use the DESC keyword.
+Syntax: SELECT column1, column2, ... FROM table_name ORDER BY column1, column2, ... ASC|DESC;
+Example: SELECT * FROM Customers ORDER BY Country;
+
+The DELETE statement is used to delete existing records in a table.
+Syntax: DELETE FROM table_name WHERE condition;
+Example: DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
+
+The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
+There are two wildcards often used in conjunction with the LIKE operator:
+    The percent sign (%) represents zero, one, or multiple characters
+     The underscore sign (_) represents one, single character
+     Syntax: SELECT column1, column2, ...FROM table_name WHERE columnN LIKE pattern;
+     Example: SELECT * FROM Customers WHERE CustomerName LIKE 'a%';
+     
+The WHERE clause is used to filter records.
+Sytax: SELECT column1, column2, ... FROM table_name WHERE condition;
+Example: SELECT * FROM Customers WHERE Country='Mexico'
