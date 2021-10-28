@@ -32,4 +32,6 @@ OR Syntax: SELECT column1, column2, ...FROM table_name WHERE condition1 OR condi
 Not Syntax: SELECT column1, column2, ... FROM table_name WHERE NOT condition;
 Example: SELECT * FROM Customers WHERE Country='Germany' AND City='Berlin';
 Example: SELECT * FROM Customers WHERE City='Berlin' OR City='München';
-SELECT * FROM Customers WHERE Country='Germany' OR Country='Spain';
+Example: SELECT * FROM Customers WHERE Country='Germany' OR Country='Spain';
+Example: SELECT * FROM Customers WHERE NOT Country='Germany';
+
