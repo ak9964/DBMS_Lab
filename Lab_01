@@ -13,8 +13,7 @@ To alter table-                                   alter table student add column
 to alter table (drop any column)-                 alter table student drop column address varchar(20);
 to delete table or database use the command-      drop database_name; & drop table_name; 
 to see the description of the table:              desc student;
+to delete a specified value in a table            delete from student where usn="1cg";
 
-Task:
-Create table Employee and add attributes (F_name, M_Name, L_name, SSN, Birth_date, address, sex, salary, dept)
-and inster 5 values after creating table
+
 
